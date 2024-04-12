@@ -1,0 +1,774 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(222, 228, 228);
+}
+
+.con-1 {
+    background-image: url('./Images/PS logo.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+}
+
+.menu-items .menu-list li {
+    list-style-type: none;
+    padding: 15px;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.menu-items .menu-list li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+}
+
+.menu-items .menu-list li:hover {
+    background-color: rgb(244, 39, 39);
+    border: 0.5px solid black;
+    border-radius: 10px;
+
+}
+
+.menu-items .menu-list li a:hover {
+    color: white;
+}
+
+.con-3 {
+    /* background-image: url('./Images/ice-mountains.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./Images/ice-mountains.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.con-4 {
+    width: 585px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 8px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    padding: 1px;
+}
+
+.form-1 input {
+    width: 280px;
+    height: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 0.2px solid gray;
+    margin: 4px;
+    background: transparent;
+}
+
+.form-1 input::placeholder {
+    color: white;
+    opacity: 0.7;
+
+}
+
+.form-1 #ip-1 {
+    color: white;
+    opacity: 0.7;
+}
+
+.con-5 {
+    padding: 10px;
+}
+
+.btn-1 {
+    background-color: rgb(244, 39, 39);
+    border: none;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    color: white;
+    margin-left: 230px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-1:hover {
+    background-color: black;
+    color: white;
+
+
+}
+
+.con-6 {
+    background-color: rgb(244, 39, 39);
+    text-align: center;
+    padding: 15px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+
+}
+
+.head-1 {
+    color: white;
+}
+
+.head-2 {
+    color: white;
+}
+
+.btn-2 {
+    border: 0.1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    color: white;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn-2:hover {
+    background-color: aliceblue;
+    color: rgb(244, 39, 39);
+    font-weight: 100px;
+}
+
+.con-8 {
+    padding: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /*  background-color: rgb(160, 165, 165);*/
+}
+
+.con-9 {
+    height: 270px;
+    width: 300px;
+    border: 3px solid black;
+    text-align: center;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: rgb(227, 234, 234);
+}
+
+.con-10 {
+    height: 270px;
+    width: 300px;
+    border: 3px solid black;
+    text-align: center;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: rgb(227, 234, 234)
+}
+
+.con-11 {
+    height: 270px;
+    width: 300px;
+    border: 3px solid black;
+    text-align: center;
+    padding: 16px;
+    border-radius: 5px;
+    background-color: rgb(227, 234, 234)
+}
+
+.con-12 {
+    background-color: rgb(222, 228, 228);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-13 {
+    height: 410px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: white;
+}
+
+.con-14 {
+    height: 410px;
+    width: 300px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.con-15 {
+    height: 410px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px;
+    background-color: white;
+}
+
+.img-1 {
+    background-image: url('./Images/road-sunset.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 150px;
+    width: 299.5px;
+}
+
+.head-3 {
+    color: rgb(244, 39, 39);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head-4 {
+    text-align: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}
+
+.btn-3 {
+    height: 33px;
+    width: 100%;
+    background-color: rgb(244, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.btn-3:hover {
+    background-color: black;
+    color: rgb(244, 39, 39);
+}
+
+.head-5 {
+    color: rgb(244, 39, 39);
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head-6 {
+    text-align: center;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 15px;
+}
+
+.btn-4 {
+    height: 33px;
+    width: 100%;
+    background-color: rgb(244, 39, 39);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.btn-4:hover {
+    background-color: black;
+    color: rgb(244, 39, 39);
+}
+
+.con-16 {
+    background-color: rgb(244, 39, 39);
+    padding: 10px;
+}
+
+.head-7 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.head-8 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.con-17 {
+    padding: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.img-2 {
+    height: 80px;
+    height: 80px;
+    padding: 5px;
+}
+
+.head-9 {
+    text-align: end;
+    color: rgb(244, 39, 39);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+}
+
+.con-18 {
+    padding: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.head-10 {
+    text-align: end;
+    color: rgb(244, 39, 39);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+}
+
+.con-19 {
+    padding: 10px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.head-11 {
+    text-align: end;
+    color: rgb(244, 39, 39);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
+
+}
+
+/* .con-20 {
+    height: 300px;
+    background-image: url('./Images/rainy glass.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.con-20 {
+    height: 710px;
+}
+
+.container-1 video {
+    width: 100%;
+    height: 20%;
+}
+
+.con-21 {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(222, 228, 228);
+}
+
+.con-22 {
+    /* border: 2px solid black; */
+    height: 450px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.head-12 {
+    padding: 38%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    background: linear-gradient(90deg, #02efef, #fe03c4);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* border: 2px solid black; */
+
+}
+
+.con-23 {
+    height: 450px;
+    width: 500px;
+    /* border: 0.1px solid rgb(190, 187, 187); */
+    padding: 15px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.img-3 {
+    width: 200px;
+    height: 140px;
+    padding: 5px;
+}
+
+.con-24 {
+    /* border: 2px solid black; */
+    display: flex;
+
+}
+
+.head-13 {
+    text-align: end;
+    color: rgb(244, 39, 39);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 4px;
+    font-size: 12px;
+}
+
+.con-25 {
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.con-26 {
+    /* border: 2px solid black; */
+    display: flex;
+}
+
+.con-27 {
+    height: 550px;
+    /* background-image: url('./Images/aircraft.jpg'); */
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)) , url('./Images/aircraft.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.con-28 {
+    height: 400px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 20px;
+
+}
+
+.con-29 {
+    height: 400px;
+    width: 500px;
+    border: 1px solid white;
+    background: transparent;
+    backdrop-filter: blur(8px);
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+.form-2 input {
+    padding: 20px;
+    height: 30px;
+    width: 450px;
+    margin: 5px;
+    background: transparent;
+    color: white;
+    border-radius: 8px;
+    border: 0.3px solid gray;
+}
+
+.form-2 input::placeholder {
+    color: white;
+    opacity: 0.5;
+
+}
+
+.form-2 textarea {
+    height: 150px;
+    width: 450px;
+    padding: 20px;
+    margin: 5px;
+    background: transparent;
+    color: white;
+    border-radius: 8px;
+}
+
+.form-2 textarea::placeholder {
+    color: white;
+    opacity: 0.5;
+
+}
+
+.btn-5 {
+    height: 30px;
+    width: 200px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(244, 39, 39);
+    border: none;
+    margin-left: 120px;
+    margin-top: 8px;
+    border-radius: 10px;
+}
+
+.btn-5:hover {
+    background-color: black;
+    color: white;
+}
+
+.con-30 {
+    background-color: rgb(12, 12, 12);
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.con-31 {
+    height: 240px;
+    width: 300px;
+    /* border: 2px solid white; */
+
+}
+
+.con-32 {
+    height: 240px;
+    width: 300px;
+    /* border: 2px solid white; */
+}
+
+.con-30 .con-31 .lt-1 li {
+    list-style-type: none;
+    padding: 12px;
+
+}
+
+.lt-1 a i {
+    margin-right: 10px;
+}
+
+.lt-2 i {
+    margin-right: 10px;
+}
+
+.con-30 .con-31 .lt-1 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.con-30 .con-32 .lt-2 li {
+    list-style-type: none;
+    padding: 12px;
+
+}
+
+.con-30 .con-32 .lt-2 li a {
+    text-decoration: none;
+    color: white;
+}
+
+.con-31 .lt-1 li a:hover {
+    color: rgb(170, 255, 0);
+}
+
+.con-32 .lt-2 li a:hover {
+    color: rgb(170, 255, 0);
+}
+
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .menu-items .menu-list li a {
+        padding: 1px;
+        font-size: 8px;
+    }
+
+    .con-1 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .con-3 {
+        height: 380px;
+        padding: 20px;
+    }
+
+    form.form-1 {
+        width: 100px;
+        padding: 15px;
+    }
+
+    .form-1 input {
+        width: 240px;
+        height: 10px;
+        padding: 15px;
+    }
+
+    .btn-1 {
+        margin-left: 60px;
+    }
+
+    .con-8 {
+        padding: 10px;
+        display: block;
+    }
+
+    .con-10 {
+        margin-top: 10px;
+    }
+
+    .con-11 {
+        margin-top: 10px;
+    }
+
+    .con-12 {
+        display: block;
+        padding: 2px;
+    }
+
+    .con-14 {
+        margin-left: 10px
+    }
+
+    .con-20 {
+        height: 180px;
+    }
+
+    .con-21 {
+        display: block;
+        height: 700px;
+    }
+
+    .con-22 {
+        width: auto;
+    }
+
+    .head-12 {
+        padding-top: 200px;
+        padding-left: 100px;
+        font-size: 30px;
+        /* border: 2px solid black; */
+        height: 50px;
+        width: 240px;
+    }
+
+    .con-23 {
+        height: auto;
+        width: auto;
+    }
+
+    .img-3 {
+        width: 170px;
+        height: 100px;
+        padding: 5px;
+    }
+
+    .con-27 {
+        display: block;
+        margin-top: 130px;
+        height: 600px;
+        padding: 25px;
+        background-image: url('Images/plane.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .con-28 {
+        height: auto;
+        width: auto;
+    }
+
+    .con-28 i {
+        height: auto;
+        width: auto;
+    }
+
+    .con-29 {
+        margin-top: 30px;
+        height: auto;
+        width: auto;
+    }
+
+    .con-28 {
+        overflow: hidden;
+        padding-bottom: 56.25%;
+        position: relative;
+        height: 0;
+        padding-top: 30px;
+
+
+    }
+
+    .con-28 iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+
+    }
+
+    .form-2 input {
+        padding: 10px;
+        height: 20px;
+        width: 230px;
+    }
+
+    .form-2 input::placeholder {
+        color: white;
+        opacity: 0.5;
+
+    }
+
+    .form-2 textarea {
+        padding: 10px;
+        height: 80px;
+        width: 230px;
+    }
+
+    .form-2 textarea::placeholder {
+        color: white;
+        opacity: 0.5;
+
+    }
+
+    .btn-5 {
+        margin-left: 20px;
+    }
+
+    .con-30 {
+        height: 530px;
+        display: block;
+    }
+
+    .con-31 {
+        margin-left: 10px;
+        height: auto;
+        width: auto;
+        margin-top: 30px;
+    }
+
+    .con-30 .con-31 .lt-1 li {
+        list-style-type: none;
+        padding: 5px;
+    }
+
+    .con-30 .con-32 .lt-2 li {
+        list-style-type: none;
+        padding: 5px;
+    }
+
+    .lt-1 a i {
+        margin-right: 2px;
+    }
+
+    .lt-2 i {
+        margin-right: 2px;
+    }
+
+    .con-32 {
+        margin-top: 30px;
+        margin-left: 10px;
+        height: auto;
+        width: auto;
+    }
+}
